@@ -380,27 +380,6 @@ Both the API and Worker use multi-stage builds:
 - **EditorConfig** with rules for naming conventions (`_camelCase` private fields, `I`-prefixed interfaces), var usage, null checks, and braces
 - **Nullable reference types** enabled project-wide
 
-## NestJS Mapping Reference
-
-This template is the .NET equivalent of a NestJS production template. Key mappings:
-
-| NestJS | .NET |
-|--------|------|
-| `@nestjs/cqrs` | MediatR |
-| `BullMQ` | MassTransit + RabbitMQ |
-| `TypeORM` | Entity Framework Core |
-| `@nestjs/throttler` | `Microsoft.AspNetCore.RateLimiting` |
-| `nestjs-pino` | Serilog |
-| `@nestjs/terminus` | `Microsoft.Extensions.Diagnostics.HealthChecks` |
-| `passport-jwt` | `Microsoft.AspNetCore.Authentication.JwtBearer` |
-| `class-validator` | FluentValidation |
-| `ioredis` | StackExchange.Redis |
-| `@nestjs/schedule` | Quartz.NET |
-| NestJS Guards | ASP.NET Core Authorization Policies |
-| NestJS Exception Filters | `IExceptionHandler` middleware |
-| NestJS Interceptors | MediatR Pipeline Behaviors |
-| Module System | `IServiceCollection` DI extensions |
-
 ## License
 
 Private — All rights reserved.
