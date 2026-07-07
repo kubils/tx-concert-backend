@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Contracts" Version="2.0.0" />
+    <PackageReference Include="NodaTime" Version="3.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="TxConcert.Application" />
+    <InternalsVisibleTo Include="TxConcert.Infrastructure" />
+    <InternalsVisibleTo Include="TxConcert.UnitTests" />
+    <InternalsVisibleTo Include="TxConcert.IntegrationTests" />
+  </ItemGroup>
+
+</Project>

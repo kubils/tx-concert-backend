@@ -1,0 +1,6 @@
+@TxConcert.Api_HostAddress = http://localhost:5554
+
+GET {{TxConcert.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
